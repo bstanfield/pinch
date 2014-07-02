@@ -906,12 +906,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #FF8000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #FF8000;
   text-decoration: underline;
 }
 a:focus {
@@ -1118,7 +1118,7 @@ cite {
 }
 mark,
 .mark {
-  background-color: #fcf8e3;
+  background-color: #FF8000;
   padding: .2em;
 }
 .text-left {
@@ -1152,19 +1152,19 @@ mark,
   color: #428bca;
 }
 a.text-primary:hover {
-  color: #3071a9;
+  color: #FF8000;
 }
 .text-success {
   color: #3c763d;
 }
 a.text-success:hover {
-  color: #2b542c;
+  color: #FF8000;
 }
 .text-info {
   color: #31708f;
 }
 a.text-info:hover {
-  color: #245269;
+  color: #FF8000;
 }
 .text-warning {
   color: #8a6d3b;
@@ -1212,7 +1212,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #FF8000;
 }
 ul,
 ol {
