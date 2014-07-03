@@ -2369,14 +2369,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #777777;
+  color: #999999;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #777777;
+  color: #999999;
 }
 .form-control::-webkit-input-placeholder {
-  color: #777777;
+  color: #999999;
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -2562,10 +2562,11 @@ select[multiple].input-lg {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
 }
 .has-success .input-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
-  background-color: #dff0d8;
+  color: #EEE;
+  border-color: #565859;
+  background-color: #565859;
 }
+p
 .has-success .form-control-feedback {
   color: #3c763d;
 }
@@ -3361,7 +3362,7 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group + .btn,
 .btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
-  margin-left: 0;
+  margin-left: 0px;
 }
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
@@ -3397,7 +3398,7 @@ tbody.collapse.in {
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
   float: none;
-  display: table-cell;
+  display: block;
   width: 1%;
 }
 .btn-group-justified > .btn-group .btn {
@@ -3414,14 +3415,18 @@ tbody.collapse.in {
   filter: alpha(opacity=0);
 }
 .input-group {
-  position: relative;
+  position: static;
   display: table;
   border-collapse: separate;
+  width: 80%;
+  height: -15px;
 }
 .input-group[class*="col-"] {
   float: none;
   padding-left: 0;
   padding-right: 0;
+  width:80%
+  height: 2px;
 }
 .input-group .form-control {
   position: relative;
@@ -3479,7 +3484,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-addon,
 .input-group-btn,
 .input-group .form-control {
-  display: table-cell;
+  display: block;
 }
 .input-group-addon:not(:first-child):not(:last-child),
 .input-group-btn:not(:first-child):not(:last-child),
@@ -3493,14 +3498,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   vertical-align: middle;
 }
 .input-group-addon {
-  padding: 6px 12px;
+	padding: 6px 12px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #EEE;
   text-align: center;
-  background-color: #eeeeee;
-  border: 1px solid #cccccc;
   border-radius: 4px;
 }
 .input-group-addon.input-sm {
@@ -3524,8 +3527,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-right-radius: 1;
+  border-top-right-radius: 1;
+  background-color: #333333;
+  color: #EEE; 
+  border-width: 0px; 
 }
 .input-group-addon:first-child {
   border-right: 0;
@@ -3537,8 +3543,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 1;
+  border-top-left-radius: 1;
 }
 .input-group-addon:last-child {
   border-left: 0;
@@ -3653,7 +3659,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
-    display: table-cell;
+    display: block;
     width: 1%;
   }
   .nav-tabs.nav-justified > li > a {
@@ -3718,7 +3724,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .nav-justified > li {
-    display: table-cell;
+    display: block;
     width: 1%;
   }
   .nav-justified > li > a {
@@ -5305,11 +5311,12 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well {
+  
+  width:100%;
   min-height: 20px;
-  padding: 19px;
+  padding: 24px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: #db7f31;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
