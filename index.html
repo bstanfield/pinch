@@ -15,9 +15,9 @@
     <link href="components/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Flat UI core CSS -->
     <link href="css/flat-ui.css" rel="stylesheet">
-    <link href="css/demo.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,11 +39,11 @@
             <!-- nav -->
         <nav class="navbar pinch-navbar" role="navigation">
           <div class="container">
-            <img class="masthead-brand navbar-logo" src="img/PinchOutline3.png" alt="pinch">
+            <img class="masthead-brand navbar-logo" src="img/PinchOutline4.png" alt="pinch">
             <ul class="nav masthead-nav">
-              <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-              <li><a href="html/mainpage.html"><span class="glyphicon glyphicon-briefcase"></span></a></li>
-              <li><a href="html/maps.html"><span class="glyphicon glyphicon-plus"></span></a></li>
+              <li class="active"><a href="#" title="Home"><span class="input-icon home-icon"></span></a></li>
+              <li><a href="#" title="Creator"><span class="input-icon fui-list"></span></a></li>
+              <li><a href="#" title="More"><span class="input-icon fui-gear"></span></a></li>
             </ul>
           </div>
         </nav>
@@ -75,12 +75,14 @@
               <!-- Input -->
                
               <div class="form-group">
-                <input type="text" class="form-control login-field" value="" placeholder="First & Last Name" id="login-name" />
+                <input type="text" class="form-control login-field" value="" placeholder="Full Name" id="login-name" />
+                <span class="input-icon fui-user"></span>
               </div>
 
               <!-- Input -->
               <div class="form-group">
                 <input type="password" class="form-control login-field" value="" placeholder="Email" id="login-pass" />
+                <span class="input-icon fui-mail"></span>
               </div>
               
               <!-- Buttons -->

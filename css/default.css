@@ -10,8 +10,28 @@ a:hover {
   text-decoration: none;
 }
 
+.home-icon {
+    display: inline-block;
+  font-family: 'Flat-UI-Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-icon:before{
+  content: "\e015";
+}
+
 a:visited {
   text-decoration: none;
+}
+
+.nav > li > a {
+  padding: 15px 15px;
 }
 
 .btn-link:hover,
@@ -19,11 +39,15 @@ a:visited {
   text-decoration: none;
 }
 
+.login-form .login-field:focus {
+  border-color: #e87915;
+}
+
 .pinch-navbar{
     background-color: #e87915;
     position: fixed;   
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .navbar-logo{
@@ -90,10 +114,11 @@ body {
   display: table-cell;
   vertical-align: top;
 }
+
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 }
 
@@ -124,7 +149,7 @@ body {
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+/*  border-bottom: 2px solid transparent;*/
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -138,16 +163,6 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
 
 /*
  * Cover
@@ -173,14 +188,26 @@ body {
 
 
 /*
- * Affix and center
+ * Media Queries
  */
 
+@media (max-width: 991px) and (min-width: 769px) {
+
+}    
 @media (min-width: 768px) {
+  
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+    
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
     top: 0;
+    
   }
   .mastfoot {
     position: relative;
@@ -197,14 +224,9 @@ body {
 }
 
 @media (max-width: 767px) and (min-width: 480px) {
-    .icon-container {
-        display: none;
-        
-    }
+
 }
 
 @media (max-width: 479px) {
-    .icon-container {
-        display: none;
-    }
+
 }

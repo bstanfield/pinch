@@ -1,0 +1,28 @@
+
+/*
+ * Media Queries
+ */
+
+@media (max-width: 991px) and (min-width: 769px) {
+    .login-container .icon-container{
+        width: 40%;
+    }
+    
+    .login-container .form-container{
+       width: 60%;
+    }
+}  
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .icon-container {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 479px) {
+    .icon-container {
+        display: none;
+    }
+}
+
