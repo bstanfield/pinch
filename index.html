@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
 
     <title>Pinch</title>
-
+  
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.css" rel="stylesheet">
-
+    <link href="components/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Flat UI core CSS -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,78 +31,84 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="site-wrapper">
+  <div class="page-main ">
+            <!-- nav -->
+        <nav class="navbar pinch-navbar" role="navigation">
+          <div class="container">
+            <img class="masthead-brand navbar-logo" src="img/PinchOutline3.png" alt="pinch">
+            <ul class="nav masthead-nav">
+              <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+              <li><a href="html/mainpage.html"><span class="glyphicon glyphicon-briefcase"></span></a></li>
+              <li><a href="html/maps.html"><span class="glyphicon glyphicon-plus"></span></a></li>
+            </ul>
+          </div>
+        </nav>
+      
+      
+    <!-- content  -->  
+    <div class="site-wrapper container">
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-				<h3 class="masthead-brand">pinch</h3>
-              <ul class="nav masthead-nav">
-				  <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				  <li><a href="mainpage.html"><span class="glyphicon glyphicon-briefcase"></span></a></li>
-				  <li><a href="maps.html"><span class="glyphicon glyphicon-plus"></span></a></li>
-              </ul>
+        <!-- Logo -->
+        <div class="header-container">
+            <div class="logo-container">
+              <img class="cover-heading" src="img/PinchOutline2.png"  width="450">
             </div>
-          </div>
-
-		  <div class="inner cover">
-			  <img class="cover-heading" src="PinchOutline2.png"  width="450">
-			  <br>
-			  <br>
-			  <br>
-			  <br>
-			  <br>
-			
-			  <div class="well">	
-			  <div align="center">
-			  <div class="col-lg-6">
-			      <div class="input-group">
-					<input type="text" class="form-control" placeholder="Full Name">
-							</div><!-- /input-group -->
-						</div><!-- /.col-lg-6 -->
-					</div>
-					<br>
-			  <div align="center">
-			  <div class="col-lg-6">
-				  <div class="input-group">
-					  <input type="text" class="form-control" placeholder="Email">
-							</div><!-- /input-group -->
-						</div><!-- /.col-lg-6 -->
-					</div>
-				</div> <!-- for wells -->
-					<br>
-					<br>
-					<br>
-			<a href="mainpage.html" class="btn btn-lg btn-default">Create Event</a>
-			   
-			</p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-				<p>Check us out at <a href="http://www.vertigo.com">Vertigo</a>.</p>
-				<p>We have an about page!</p>
-            </div>
-          </div>
-
         </div>
 
+      <!-- Login -->
+      <div class="login-container">
+        <div class="inner row">
+        <!-- icon -->
+        <div class="icon-container col-xs-6 col-md-4">
+          <img src="img/icon.png" alt="Welcome to Pinch" />
+          <h4>Start Creating!</h4>
+        </div>
+
+        <!-- Form -->
+        <div class="form-container col-xs-12 col-sm-6 col-md-8">
+           <div class="login-form">
+              
+              <!-- Input -->
+               
+              <div class="form-group">
+                <input type="text" class="form-control login-field" value="" placeholder="First & Last Name" id="login-name" />
+              </div>
+
+              <!-- Input -->
+              <div class="form-group">
+                <input type="password" class="form-control login-field" value="" placeholder="Email" id="login-pass" />
+              </div>
+              
+              <!-- Buttons -->
+              <div>
+                <a class="btn btn-primary btn-lg btn-block" href="#">Get Started</a>
+                <a class="login-link" href="#">Lost?</a>
+              </div>
+          </div>
+        </div>
+      
       </div>
+    </div>
+      <div class="footer-container">
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Check us out at <a href="http://www.vertigo.com">Vertigo</a>.</p>
+          </div>
+        </div>
+      </div>
+</div>
 
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script src="../../assets/js/docs.min.js"></script>
+</body>
 </html>
