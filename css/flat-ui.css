@@ -93,6 +93,7 @@ you can use the generic selector below, but it's slower:
 .fui-calendar-solid,
 .fui-pause,
 .fui-play,
+.fui-box-list,
 .fui-check-inverted-2 {
   display: inline-block;
   font-family: 'Flat-UI-Icons';
@@ -103,6 +104,9 @@ you can use the generic selector below, but it's slower:
   text-transform: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.fui-box-list:before {
+  content:"\E05C";
 }
 .fui-arrow-right:before {
   content: "\e02c";

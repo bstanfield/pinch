@@ -10,8 +10,24 @@ a:hover {
   text-decoration: none;
 }
 
+.box-list-icon {
+  display: inline-block;
+  font-family: 'Flat-UI-Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-list-icon:before{
+    content: "\e05c";
+}
+
 .home-icon {
-    display: inline-block;
+  display: inline-block;
   font-family: 'Flat-UI-Icons';
   speak: none;
   font-style: normal;
