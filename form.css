@@ -47,6 +47,10 @@
         background-color: #f1c40f;
     }
 
+    .btn-danger:focus {
+        background-color: #f1c40f;
+    }
+
     h1 {
         text-align: left;
         margin-bottom: 60px;
