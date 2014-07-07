@@ -18,22 +18,25 @@
     <!-- Needs to be fixed -->
 
     .container h1 {
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         text-align: left;
         padding-left:28px;
     }
 
-    .container h6 {
+    h6 {
         margin-bottom: 60px;
-        text-align: left;
-        padding-left:28px;
-        width: 65%;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 100%;
         padding-top: 0px;
+        font-size: 20px;
     }
 
     .more {
         padding-top: 20px;
         color: #e87915;
+        padding-bottom: 20px;
     }
     
     .btn-danger {
@@ -42,3 +45,10 @@
 
     .btn-danger:hover {
         background-color: #f1c40f;
+    }
+
+    h1 {
+        text-align: left;
+        margin-bottom: 60px;
+        padding-left: 10px;
+    }
