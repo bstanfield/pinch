@@ -18,13 +18,18 @@
  * Media Queries
  */
 
-@media (max-width: 991px) and (min-width: 769px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .login-container .icon-container{
         width: 40%;
     }
     
     .login-container .form-container{
        width: 60%;
+    }
+    
+    .row{
+        margin-right: 0;
+        margin-left: 0;
     }
 }  
 
