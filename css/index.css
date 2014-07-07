@@ -62,10 +62,13 @@
     }
 
     .site-wrapper {
-      padding: 150px 15px 0 15px;
+      padding: 0px 15px 0 15px;
     }
 
-
+    .pinch-navbar{
+        position: relative;   
+    }
+    
 }
 
     
