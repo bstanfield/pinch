@@ -90,11 +90,15 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: none;
 }
 
 .container{
   max-width: 970px;
+}
+
+ .form-control:focus + .input-icon {
+        color: #e87915;
 }
 
 .login-container .inner{
@@ -164,6 +168,7 @@ body {
   border-bottom-color: #fff;
 }
 
+
 /*
  * Cover
  */
@@ -223,10 +228,28 @@ body {
 
 }
 
-@media (max-width: 767px) and (min-width: 480px) {
+  .input-icon {
+      color: #333;
+      opacity: .9;
+  }
 
+  .masthead-brand {
+      opacity: .9;
+      height: 30px;
+      margin-top: 15px;
+  }
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .header-container {
+        padding: 70px 0 0 0;
+    }
+    
+    .login-form:before {
+        border-style: none;
+    }
 }
 
 @media (max-width: 479px) {
 
 }
+

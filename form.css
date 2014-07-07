@@ -1,0 +1,44 @@
+  
+    .login-form {
+        vertical-align: center;
+    }
+
+    .login-form:before {
+		border-style: none;
+	}
+
+    .input-icon {
+        text-shadow: none;
+    }
+
+    .form-control:focus + .input-icon {
+        color: #e87915;
+    }
+
+    <!-- Needs to be fixed -->
+
+    .container h1 {
+        margin-bottom: 30px;
+        text-align: left;
+        padding-left:28px;
+    }
+
+    .container h6 {
+        margin-bottom: 60px;
+        text-align: left;
+        padding-left:28px;
+        width: 65%;
+        padding-top: 0px;
+    }
+
+    .more {
+        padding-top: 20px;
+        color: #e87915;
+    }
+    
+    .btn-danger {
+        background-color: #e87915;
+    }
+
+    .btn-danger:hover {
+        background-color: #f1c40f;
